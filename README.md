@@ -1,12 +1,11 @@
 # 🧩 HashSlap Developer Dashboard
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/HashSlap-Summer-of-Code/devhub?style=flat-square&color=brightgreen" />
-  <img src="https://img.shields.io/github/stars/HashSlap-Summer-of-Code/devhub?style=flat-square&color=blue" />
-  <img src="https://img.shields.io/github/issues/HashSlap-Summer-of-Code/devhub?style=flat-square&color=green" />
-  <img src="https://img.shields.io/github/forks/HashSlap-Summer-of-Code/devhub?style=flat-square&color=gray" />
+  <img src="https://img.shields.io/github/license/HashSlap-Summer-of-Code/Developer-Dashboard?style=flat-square&color=brightgreen" />
+  <img src="https://img.shields.io/github/stars/HashSlap-Summer-of-Code/Developer-Dashboard?style=flat-square&color=blue" />
+  <img src="https://img.shields.io/github/issues/HashSlap-Summer-of-Code/Developer-Dashboard?style=flat-square&color=green" />
+  <img src="https://img.shields.io/github/forks/HashSlap-Summer-of-Code/Developer-Dashboard?style=flat-square&color=gray" />
 </p>
-
 ---
 
 ## 🚀 Overview
