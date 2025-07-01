@@ -1,88 +1,26 @@
 # 🧩 HashSlap Developer Dashboard
 
-![License](https://img.shields.io/badge/license-MIT-brightgreen)
-![GitHub stars](https://img.shields.io/github/stars/HashSlap-Summer-of-Code/devhub)
-![GitHub issues](https://img.shields.io/github/issues/HashSlap-Summer-of-Code/devhub)
-
-A full-stack, open-source dashboard to track your GitHub contributions, blogs, CP stats, and more — inspired by developers, for developers.  
-Built using **Next.js**, **Tailwind CSS**, **Clerk**, and deployed on **Netlify**.
-
----
-
-## 🚀 Features
-
-- 🔐 GitHub OAuth login (via Clerk.dev)
-- 🧠 Personalized dashboard for each developer
-- 📊 GitHub stats: commits, PRs, stars, repos
-- ✍️ Blog integrations: Dev.to, Hashnode, Medium
-- 🧑‍💻 Stack Overflow profile + reputation
-- ⚔️ LeetCode, Codeforces, HackerRank support
-- 🔧 Modular widget architecture (add your own!)
-- ☁️ Deploys instantly on Netlify
+<p align="center">
+  <img src="https://img.shields.io/github/license/HashSlap-Summer-of-Code/devhub?style=flat-square&color=brightgreen" />
+  <img src="https://img.shields.io/github/stars/HashSlap-Summer-of-Code/devhub?style=flat-square&color=blue" />
+  <img src="https://img.shields.io/github/issues/HashSlap-Summer-of-Code/devhub?style=flat-square&color=green" />
+  <img src="https://img.shields.io/github/forks/HashSlap-Summer-of-Code/devhub?style=flat-square&color=gray" />
+</p>
 
 ---
 
-## 🧱 Tech Stack
+## 🚀 Overview
 
-| Layer        | Tech                           |
-|--------------|--------------------------------|
-| Framework    | Next.js                        |
-| Styling      | Tailwind CSS, ShadCN/UI        |
-| Auth         | Clerk.dev (GitHub OAuth)       |
-| Hosting      | Netlify                        |
-| API Clients  | GitHub GraphQL, Dev.to RSS     |
-| State Mgmt   | React Query, Zustand           |
-| DB (Optional)| Supabase                       |
+**HashSlap Developer Dashboard** is a full-stack, open-source dashboard designed to showcase your GitHub activity, blogging presence, and competitive programming stats in one elegant UI.  
+Perfect for developers looking to build a central profile powered by their public contributions.
+
+> Built with: Next.js, Tailwind CSS, Clerk.dev, and deployed on Netlify ☁️
 
 ---
 
-## 📦 Getting Started
-
-### 1. Clone the Repo
+## 📁 Directory Structure
 
 ```bash
-git clone https://github.com/HashSlap-Summer-of-Code/devhub.git
-cd devhub
-```
-
-> **Note:** After cloning, you should see a `devhub` folder with directories like `components`, `pages`, etc.  
-> If not, verify your internet connection or try re-cloning the repo.
-
----
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
----
-
-### 3. Set up Environment Variables
-
-Create a `.env.local` file in the root directory and add:
-
-```env
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
-CLERK_SECRET_KEY=your_key
-GITHUB_TOKEN=your_token
-```
-
----
-
-### 4. Run the Dev Server
-
-```bash
-npm run dev
-```
-
-Visit [http://localhost:3000](http://localhost:3000) 🎉
-
----
-
-## 🔧 Project Structure
-
-```
 devhub/
 ├── components/          # UI widgets & layout
 ├── pages/               # Next.js routing
@@ -96,23 +34,78 @@ devhub/
 
 ---
 
-## 🛠 Contributing
+## 💡 Features
 
-1. Fork this repo  
-2. Create a feature branch  
-3. Commit your code with clear messages  
-4. Open a PR and link to an issue  
+* 🔐 GitHub OAuth login (via Clerk.dev)
+* 🧠 Personalized dashboard per user
+* 📊 GitHub stats: commits, repos, stars, PRs
+* ✍️ Blog integrations: Dev.to, Hashnode, Medium
+* 👨‍💻 CP support: LeetCode, HackerRank, Codeforces
+* 📚 Stack Overflow rep + profiles
+* 🧩 Modular widget-based architecture
+* ☁️ Deploys to Netlify instantly
 
-For full guidelines, see [CONTRIBUTING.md](./CONTRIBUTING.md)
+---
+
+## 🔧 How to Use
+
+1. **Fork** this repository 🍴  
+2. **Clone** your fork:
+
+   ```bash
+   git clone https://github.com/your-username/devhub.git
+   cd devhub
+   ```
+
+3. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+4. **Configure environment variables**  
+   Create a `.env.local` file in the root directory and add:
+
+   ```env
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+   CLERK_SECRET_KEY=your_key
+   GITHUB_TOKEN=your_token
+   ```
+
+5. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser to see it live! 🎉
+
+---
+
+## 🛠️ Contributing
+
+We welcome contributions of all kinds! Feel free to:
+
+* Add new widgets or services (like GFG, Codewars, etc.)
+* Improve performance, UI, or mobile responsiveness
+* Fix bugs, create issues, or suggest enhancements
+* Help improve documentation
+
+**Standards:**
+
+* Keep code modular, reusable, and well-commented
+* Test your changes locally before pushing
+* Link your PRs to existing issues if possible
 
 ---
 
 ## 📜 License
 
-Licensed under the [MIT License](./LICENSE)
+This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🌐 Credits
+## 🙌 Acknowledgements
 
-Built with ❤️ by contributors in the [HashSlap Summer of Code](https://hashslap.dev) community.
+Huge thanks to the HashSlap Summer of Code community 💙  
+Built by and for open-source developers around the world.
